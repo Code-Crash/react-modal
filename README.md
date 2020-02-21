@@ -7,7 +7,7 @@
 ## Install
 
 ```bash
-npm install --save @code/react-modal
+npm install --save git+https://github.com/Code-Crash/react-modal.git
 ```
 
 ## Usage
