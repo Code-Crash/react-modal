@@ -1,0 +1,167 @@
+/* add css styles here (optional) */
+
+/*
+******** CSS Properties ********
+*/
+.cc-close-icon {
+  float: right;
+  z-index: 995;
+  margin: 5px 20px;
+  font-size: 20px;
+  color: #d85050;
+  cursor: pointer;
+}
+
+.cc-modal-container {
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  height: 100%;
+  flex-direction: column;
+  opacity: 1;
+  scroll-behavior: smooth;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1011;
+  background: rgba(0, 0, 0, 0.65);
+  display: flex;
+}
+
+.cc-modal-show {
+  opacity: 1;
+  /* animation: 1s; */
+  /* -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -ms-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out; */
+  /* transition: width 0.5s, height 0.5s, opacity 0.5s 0.5s; */
+}
+
+.cc-modal-hide {
+  display: none;
+  opacity: 0;
+  /* animation: 1s;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -ms-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out; */
+  /* opacity: 0;
+  width: 0;
+  height: 0;
+  transition: width 0.5s 0.5s, height 0.5s 0.5s, opacity 0.5s; */
+}
+
+.cc-modal-header {
+  margin: 0px;
+  width: 100%;
+  height: 33px;
+  overflow: hidden;
+  display: flex;
+}
+
+.cc-modal-area {
+  top: 10%;
+  display: block;
+  width: 35%;
+  background-color: transparent;
+  border: 0px;
+}
+
+.cc-modal-inner-area {
+  border-radius: 12px;
+  background-color: #E6EBF1;
+}
+
+.cc-modal-title {
+  font-size: 18px !important;
+  margin: 6px 20px;
+  flex: 1;
+  position: relative;
+  color: #525558 !important;
+  font-weight: 300;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+.cc-modal-content {
+  width: 92%;
+  background: white;
+  box-shadow: 0 7px 14px 0 rgba(49, 49, 93, 0.1), 0 3px 6px 0 rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+  margin: 20px;
+}
+
+.cc-modal-footer {
+  margin: 0px;
+  width: 100%;
+  height: 45px;
+  overflow: hidden;
+  display: flex;
+}
+
+.cc-btn {
+  float: left;
+  display: block;
+  background: #555ABF;
+  color: white;
+  box-shadow: 0 7px 14px 0 rgba(49, 49, 93, 0.1), 0 4px 6px 0 rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+  border: 0;
+  font-size: 14px;
+  font-weight: 400;
+  width: 69px;
+  height: 30px;
+  line-height: 28px;
+  outline: none;
+  cursor: pointer;
+}
+
+.cc-btn:focus {
+  background: #555ABF;
+}
+
+.cc-btn:active {
+  background: #43458B;
+}
+
+.cc-btn[disabled] {
+  background: #8898AA;
+  cursor: default
+}
+
+.cc-btn-cancel {
+  margin-right: 20px;
+}
+
+.cc-btn-continue {
+  margin-right: 0px;
+}
+
+.cc-action-container {
+  margin: 6px 20px;
+}
+
+.cc-modal-enter {
+  opacity: 0;
+  transform: scale(0.9);
+}
+
+.cc-modal-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 300ms, transform 300ms;
+}
+
+.cc-modal-exit {
+  opacity: 1;
+}
+
+.cc-modal-exit-active {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 300ms, transform 300ms;
+}
