@@ -4,7 +4,7 @@
   "description": "This library will hold the code for modal and it&#x27;s examples ",
   "author": "Code-Crash",
   "license": "MIT",
-  "repository": "Code-Crash/@code/react-modal",
+  "repository": "Code-Crash/react-modal",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
