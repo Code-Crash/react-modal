@@ -4,7 +4,10 @@
   "description": "This library will hold the code for modal and it&#x27;s examples ",
   "author": "Code-Crash",
   "license": "MIT",
-  "repository": "Code-Crash/react-modal",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Code-Crash/react-modal.git"
+  },
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
@@ -52,5 +55,12 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "bugs": {
+    "url": "https://github.com/Code-Crash/react-modal/issues"
+  },
+  "homepage": "https://github.com/Code-Crash/react-modal#readme",
+  "directories": {
+    "example": "example"
+  }
 }
