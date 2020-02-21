@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "This library will hold the code for modal and it&#x27;s examples ",
   "author": "Code-Crash",
+  "private": false,
   "license": "MIT",
   "repository": {
     "type": "git",
