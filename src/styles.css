@@ -13,7 +13,7 @@
 }
 
 .cc-modal-container {
-  position: fixed;
+  position: fixed !important;
   justify-content: center;
   width: 100%;
   align-items: center;
