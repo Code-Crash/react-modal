@@ -102,19 +102,19 @@ export default class App extends Component {
 
 export type Props = {
   hTitle?: string, // 'Header Title',
-  fTitle?: string, //'Footer Title',
+  fTitle?: string, // 'Footer Title',
   content?: JSX.Element, // <div>This is your Component</div >,
-  toggle?: Function, //'Your function which will manage the open|close the modal',
-  cancel?: Function, //'Your function which will manage the cancel the modal',
-  continue?: Function, //'Your function which will manage the continue the modal',
+  toggle?: Function, // 'Your function which will manage the open|close the modal',
+  cancel?: Function, // 'Your function which will manage the cancel the modal',
+  continue?: Function, // 'Your function which will manage the continue the modal',
   action?: {
     cancel?: {
-      hide?: boolean, //false,
-      label?: string, //'Cancel'
+      hide?: boolean, // default: false,
+      label?: string, // default: 'Cancel'
     },
     continue?: {
-      hide?: boolean, //false,
-      label?: string, //'Continue'
+      hide?: boolean, // default: false,
+      label?: string, // default: 'Continue'
     },
   },
   styles?: {
